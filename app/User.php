@@ -12,7 +12,8 @@ class User extends Authenticatable
     use HasApiTokens, Notifiable;
 
     public static $AdminEmails = [
-        'jonas.kerwin.hansen@gmail.com'
+        'jonas.kerwin.hansen@gmail.com',
+        'miscni@hotmail.com'
     ];
 
     /**
