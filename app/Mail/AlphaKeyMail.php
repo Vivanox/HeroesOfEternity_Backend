@@ -12,7 +12,7 @@ class AlphaKeyMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public AlphaKey $alphaKey;
+    public $alphaKey;
 
     /**
      * Create a new message instance.

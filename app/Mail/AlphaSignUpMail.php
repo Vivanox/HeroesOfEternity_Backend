@@ -12,7 +12,7 @@ class AlphaSignUpMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public AlphaSignUp $alphaSignUp;
+    public $alphaSignUp;
 
     /**
      * Create a new message instance.
